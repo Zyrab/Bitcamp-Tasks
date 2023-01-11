@@ -25,8 +25,8 @@ I learnd media Queries thought i could use responsive styiling whith this projec
 in future projects i would like to use more of responive desiging and develop myself to get eady for harder tasks.
 
 ## Author
-
-- github - [Zyrab](https://www.your-site.com)
+https
+- github - [Zyrab](https://github.com/Zyrab)
 - linkedin - [Zura Kruashvili](linkedin.com/in/zura-kruashvili-73862a261)
 
 
