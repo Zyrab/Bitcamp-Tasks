@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    text-align: center;
+    background: #E0E8FF;
+    background-image: url("/Task3-Order-Summery/images/pattern-background-mobile.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-position-y: 0;
+}
+.container{
+    font-family: 'Red Hat Display';
+    font-style: normal;
+    line-height: 30px;
+    font-size: 22px;
+    width: 327px;
+    height: 567px;
+    border-radius: 20px;
+    background: #ffffff;
+    box-shadow: 0px 40px 40px -20px rgba(13, 48, 189, 0.151826);
+    margin: 71px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.img{
+    width:327px ;
+    height: 160px;
+}
+.img img{
+    width: 100%;
+    border-radius: 20px 20px 0px 0px;
+}
+h1{
+    font-size: 22px;
+    font-weight: 900;
+    color: #1F2E55;
+}
+.summ{
+    width: 263px;
+    color: #717FA6;
+    font-weight: 500;
+    line-height: 25px;
+    font-size: 15px;
+}
+section{
+    width: 279px;
+    height: 81px;
+    font-size: 14px;
+    border-radius: 11px;
+    background: #F7F9FF;
+    padding: 17px 16px 16px;
+}
+.wrap{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.plan1{
+    text-align: center;
+    height: 19px;
+    color: #1f2e55;
+    font-weight: 900;
+}
+.pay{
+    height: 19px;
+    color:#717FA6;
+    font-weight: 500;
+}   
+.plan{
+    height: 48px;
+    display: flex;
+    flex-direction: column;
+    align-items:left;
+}
+.change{
+    width: 35%;
+}
+.change a{
+    float: right;
+    font-size: 13px;
+    text-decoration: underline;
+    font-weight: 700;
+    color: #382ae1;
+}
+button{
+    text-align: center;
+    width: 279px;
+    height: 50px;
+    background: #382ae1;
+    border-radius: 11px;
+    border: none;
+    box-shadow: 0px 20px 20px rgba(56, 42, 225, 0.190291);
+    font-size: 15px;
+    font-weight: 900;
+    color: #ffffff;
+}
+.cancel{
+    margin-bottom: 20px;
+}
+.cancel a{
+    font-size: 15px;
+    color: #717fa6;
+    font-weight: 900;
+    text-decoration: none;
+}
+@media screen and (min-width:376px) {
+    body{
+        background-image: url(/Task3-Order-Summery/images/pattern-background-desktop.svg);
+    }
+    .container{
+        width: 450px;
+        height: 697px;
+    }
+    .img{
+        width:450px ;
+        height: 220px;
+    }
+    h1{
+        font-size: 28px;
+    }
+    .summ{
+        font-size: 16px;
+        width: 354px;
+        line-height: 26px;
+    }
+    section{
+        width: 354px;
+        height: 98px;
+        font-size: 16px;
+        padding: 25px 24px 24px;
+    }
+    .change a{
+        font-size: 14px;
+    }
+    .change a:hover{
+        color: #766cf1;
+    }
+    button{
+        width: 354px;        
+    }
+    button:hover{
+        background: #766cf1;
+    }
+    .cancel{
+        margin-bottom: 36px;
+    }
+    .cancel a:hover{
+     color: #1f2e55;
+    }
+}

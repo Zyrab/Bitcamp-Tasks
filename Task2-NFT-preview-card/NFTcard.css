@@ -33,14 +33,6 @@ body{
     width: 100%;
     border-radius: 8px;
 }
-.nft .nft2{
-    padding: 115px;
-    left: 0;
-    position: absolute;
-    opacity: 0;
-    border-radius: 8px;
-
-}
 
 h1{
     font-weight: 600;
@@ -110,13 +102,18 @@ hr{
         width: 350px;
         height: 596px;
     }
+    .nft .nft2{
+        padding: 127px;
+        left: 0;
+        position: absolute;
+        opacity: 0;
+        border-radius: 8px;
+    }
     .nft{
         width: 302px;
         height: 302px;
     }
-    .nft .nft2{
-        padding: 127px;
-    }
+
     h1{
         margin-bottom: 16px;
     }
